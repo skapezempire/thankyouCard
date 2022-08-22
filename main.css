@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+body{
+   background-color: #00122d; 
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+
+.container{
+    background-color: white;
+    width:750px;
+    height: 400px;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+
+img{
+    width:350px;
+    height: 400px;
+    border-bottom-left-radius: 5px;
+    
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 30px;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    
+
+}
+  
+
+.side_info{
+    margin-top: 20px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+
+
+#title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#close{
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.btn_main{
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+
+#btn_1{
+background-color: black;
+border: none;
+color: white;
+font-size: larger;
+width: 150px;
+height: 60px;
+border-radius: 10px;
+
+
+}
+
+
+
+#btn_2{
+   
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    /* border: none; */
+    border-color: #aaa;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#btn_3{
+    border-radius: 1px;
+   
+    color:black;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #aaa;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right-color: #aaa ;
+border-left-color: #aaa;
+border-top-color: #aaa;
+border-bottom-color: #aaa;
+}
+
+#copy_btn{
+width:350px;
+height:60px;
+color:#aaa;
+
+border-radius: 10px;
+border-right-color: #aaa ;
+border-left-color: #aaa;
+border-top-color: #aaa;
+border-bottom-color: #aaa;
+text-align: left;
+padding-left: 20px;
+font-size: large;
+cursor:pointer;
+display: inline-flex;
+padding: 0;
+align-items: center;
+justify-content: space-evenly;
+
+    
+
+}
+  
+.sub_text{
+ font-size: larger;
+ line-height: 1.5;
+ color: #aaa;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+}
+/* background-color: #00baff; */
+
+#copy_btn ion-icon{
+    font-size: 24px;
+    /* border: none;
+    outline: none; */
+    /* display: inline-flex; */
+    padding-left: 120px;
+
+
+}
+
+
